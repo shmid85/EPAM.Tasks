@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EPAM.Task01.1.6. FONT ADJUS
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EPAM.Task01.1.7. ARRAY PROCESSING", "EPAM.Task01.1.7. ARRAY PROCESSING\EPAM.Task01.1.7. ARRAY PROCESSING.csproj", "{CE5F1244-377E-4221-8E7D-A84C14AB5E89}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EPAM.Task01.1.8. NO POSITIVE", "EPAM.Task01.1.8. NO POSITIVE\EPAM.Task01.1.8. NO POSITIVE.csproj", "{04D96515-302D-4516-B148-894131DC39AB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{CE5F1244-377E-4221-8E7D-A84C14AB5E89}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CE5F1244-377E-4221-8E7D-A84C14AB5E89}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CE5F1244-377E-4221-8E7D-A84C14AB5E89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04D96515-302D-4516-B148-894131DC39AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04D96515-302D-4516-B148-894131DC39AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04D96515-302D-4516-B148-894131DC39AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04D96515-302D-4516-B148-894131DC39AB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
