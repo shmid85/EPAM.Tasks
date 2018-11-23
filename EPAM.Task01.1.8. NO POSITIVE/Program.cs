@@ -15,6 +15,8 @@ namespace EPAM.Task01._1._8.NO_POSITIVE
             array = new int[n, n, n];
             GererateArray(n);
             PrintArray();
+            KillPositive();
+            PrintArray();
 
 
             Console.ReadLine();
@@ -44,13 +46,19 @@ namespace EPAM.Task01._1._8.NO_POSITIVE
         }
 
         public static void PrintArray() {
-
+            Console.WriteLine("......");
             for (int i = 0; i < n; i++)
                 for (int j = 0; j < n; j++)
                     for (int k = 0; k < n; k++)
                         Console.WriteLine(array[i, j, k]);
-
+            Console.WriteLine("......");
         }
 
+        public static void KillPositive() {
+            for (int i = 0; i < n; i++)
+                for (int j = 0; j < n; j++)
+                    for (int k = 0; k < n; k++)
+                        if(array[i, j, k] > 0) array[i, j, k] = 0;
+        }
     }
 }
