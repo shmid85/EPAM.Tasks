@@ -32,8 +32,8 @@ namespace EPAM.Task01._1._7.ARRAY_PROCESSING
             Console.Write("Введите количество элементов массива: ");
             while (!int.TryParse(Console.ReadLine(), out n) || n <= 0 || n > 100)
             {
-                Console.Write("Введите количество элементов массива: ");
                 if (n > 100) Console.WriteLine("\nСлишком много элементов. Попробуйте менее 100...");
+                Console.Write("Введите количество элементов массива: ");               
             }
 
             return n;
