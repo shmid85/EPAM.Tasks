@@ -13,18 +13,16 @@ namespace EPAM.Task01._1._1.RECTANGLE
             Console.ForegroundColor = ConsoleColor.Green;
 
             Console.WriteLine("Вычисление площади прямоугольника");
-
-            Console.WriteLine("Введите целое положительное число А");
-            while (!int.TryParse(Console.ReadLine(), out a))
+            
+            do
             {
                 Console.WriteLine("Введите целое положительное число А");
-            }
-            if (a <= 0) throw new ArgumentException("Сторона должна быть положительным целым числом", nameof(a));
+            } while (!int.TryParse(Console.ReadLine(), out a));
 
-            Console.WriteLine("Введите целое положительное число B");
-            while (!int.TryParse(Console.ReadLine(), out b)) {
+
+            do {
                 Console.WriteLine("Введите целое положительное число B");
-            }
+            }while (!int.TryParse(Console.ReadLine(), out b));
 
              if (b <= 0) throw new ArgumentException("Сторона должна быть положительным целым числом", nameof(b));
 
